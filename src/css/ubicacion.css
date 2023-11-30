@@ -1,0 +1,31 @@
+.leaflet-container{
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.mapa .botones{
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    margin: 10px;
+    padding: 20px 20px;
+   /* background-color: #B0C4DE; */
+    background-color: #96cde2;
+    border-radius: 10px;
+}
+.mapa .botones button{
+    margin: 18px;
+    border-radius: 12px;
+    background-color: #ADD8E6
+}
+.mapa h2{
+
+    color: black;
+}

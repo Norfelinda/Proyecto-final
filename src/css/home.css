@@ -1,0 +1,14 @@
+.galeri{
+    max-width: 960px;
+    margin: 0 auto 20px;
+  
+}
+.galeri img{
+    border-radius: 15px;
+}
+.galeri h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+   padding: 2rem;
+  
+}

@@ -1,0 +1,46 @@
+
+.servicio{
+   display: flex;
+   flex-direction: column;
+    border-radius: 10px;
+    list-style: none;
+
+}
+.servicio ul li h2{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 2rem;
+  
+}
+.servicio ul li p{
+    font-family: fantasy;
+    margin: 1rem 2.5rem;
+}
+
+.servicio ul li img{
+    border-radius: 10px;    
+    margin: 10px;
+    padding: 20px 20px;
+}
+.envio{
+   
+    display: flex;
+    margin-right: 20px;
+ 
+
+}
+.envio img{ 
+    justify-content: center;
+    border-radius: 5px;
+   margin-right: auto;
+    margin-top: 0;
+}
+.envio p{
+    text-align: justify;
+    font-family: fantasy, cursive;
+    font-size: 2rem;
+    padding: 1px 8rem;
+    
+}

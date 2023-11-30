@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ 
+}
+header{
+background-color:rgb(0, 191, 255);
+color:orangered;
+padding: 1px;
+margin: 0px;
+height: 152px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imagen .imgLogo{
+  margin-left: left;
+  /* margin-top: 0px; */
+ /* margin-bottom: 50px; */
+  border-radius: 5rem;
+  
+  
+ }
+ .imagen h1{
+  /* margin: 0;  margin-left: 30rem;*/
+  color: orangered ;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  top:0;
+  left: 50%; 
+ 
+ 
+ }
+ 
+ 
+footer{
+background-color:orangered;
+text-align: center;
+padding: 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+nav{
+background-color: orangered;
+margin-bottom: 20px;
+
+}
+
+nav ul{  
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+
+
+}
+nav ul li{  
+flex-grow: 1;
+
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+padding: 10px;
+display: block;
+text-align: center;
+
+
+}
+/* nosotros*/
+.caja{
+  border: 2px solid white;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/*Agregando  animaciones */
+h1{
+  animation: mover-izquierda-derecha 10s 1;
+  animation-fill-mode: forwards;
+ 
+}
+/*pie de pagina ;*/
+h4{
+  font-size: 20px; 
+  color: black;
+  font-weight: 400;
+  margin-bottom: 25px;
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;   
   }
-}
+  .footer ul{
+    list-style-type: none;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer ul li p{
   color: white;
+  margin-left: auto;
+  margin-bottom: 5px;
+  transition: all .3 ease;
+
+}
+.creacion p{
+    
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes mover-izquierda-derecha{
+  from{
+    transform: translateX(-150px);
   }
-  to {
-    transform: rotate(360deg);
+  to{
+    transform: translateX(10px);
   }
 }

@@ -1,0 +1,46 @@
+body{
+    background-color: #F5DEB3;
+    
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+label{
+    display: block;
+    font-size: 16px;
+   
+}
+input, select{
+    width: 100%;
+
+}
+span{
+    display: block;
+    color: tomato;
+    font-size: x-small;
+}
+ textarea{
+   
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    border-radius: 6px;
+   
+}
+button{
+    background-color: orangered;
+    width: 120px;
+    height: 44px;
+    border-radius: 6px;
+}
+button p{
+    font-size: 14px;
+    color: white;
+    text-align: center center;
+
+}
